@@ -1,0 +1,24 @@
+.Button {
+	height: 60px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.Keys {
+	display: grid;
+	width: 400px;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 5px;
+}
+
+.Value {
+	width: 400px;
+	margin-bottom: 10px;
+	height: 60px;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-align: right;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
